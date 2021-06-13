@@ -1,0 +1,24 @@
+set relativenumber	
+set nowrap
+set showmatch
+set smartcase
+set incsearch
+set autoindent
+set shiftwidth=4
+set smartindent
+set smarttab
+set softtabstop=4
+set cursorline
+syntax on
+
+let g:airline_theme='molokai'
+call plug#begin('~/.vim/plugged')
+Plug 'mattn/emmet-vim'
+Plug 'vim-airline/vim-airline-themes'
+Plug 'vim-airline/vim-airline'
+Plug 'maralla/completor.vim'
+Plug 'preservim/nerdtree'
+Plug 'ryanoasis/vim-devicons'
+Plug 'jiangmiao/auto-pairs'
+call plug#end()
+colorscheme molokai
